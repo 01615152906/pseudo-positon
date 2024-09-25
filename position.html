@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>css positions
+     </title>
+
+<style>
+     .icons{
+          height: 100px;
+          width: 200px;
+     }
+
+     .swim-contaner{
+          position: relative;
+          border: 2px solid plum;
+
+     }
+
+     .box{
+          border: 2px dotted plum;
+          width: 200px;
+     }
+
+     /* .ring{
+          position: relative;
+          position: relative;
+          left: 50px;
+          top: 30px;
+         
+     } */
+
+/* 
+      .ring{
+          position: absolute;
+          top: 40px;
+          left: 100px;
+
+      } */
+       .dummy{
+          border: 1px solid tomato ;
+          width: 200px;
+          height:200px ;
+       }
+       /* .ring{
+          position: sticky;
+          top: 0px;
+       } */
+
+       .ring{
+          position: fixed;
+          top: 200px;
+          left: 50px;
+       }
+       .another{
+          border: 2px solid blue;
+       }
+</style>
+</head>
+<body>
+     
+
+     <ol>
+<!-- flow related -->
+          <li>static</li>
+          <li>relative: <small> current position relative e koto tuku cheng hobe , and will not leave the current spot  </small></li>
+          <li>absolute: <small>will lose it s own position and will move based on the root</small> </li>
+          <!-- scroll related -->
+          <li>fixed</li>
+          <li>sticky</li>
+     </ol>
+
+
+     <div class="swim-contaner">
+          <div class="box boy">
+               <img class="icons" src="img/boy-hotel-swimming-pool.jpg" alt="">
+          </div>
+
+          <div class="box ring">
+               <img class="icons" src="img/ring.jpg" alt="">
+          </div>
+
+          <div class="box water">
+               <img class="icons" src="img/whter.jpg" alt="">
+          </div>
+
+          <div class="dummy"> </div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+          <div class="dummy"></div>
+
+     </div>
+     <div class="another">
+          <div class="dumy"></div>
+          <div class="dumy"></div>
+          <div class="dumy"></div>
+          <div class="dumy"></div>
+          <div class="dumy"></div>
+     </div>
+
+
+
+</body>
+</html>
